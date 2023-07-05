@@ -28,7 +28,7 @@
   <div class="container mt-4">
     <div class="row">
       <div class="col-md-6">
-        <div class="input-group">
+        <div class="input-group mb-4" >
           <input type="text" class="form-control" placeholder="Search">
           <div class="input-group-append">
             <button class="btn btn-outline-secondary" type="button">Search</button>
@@ -38,6 +38,7 @@
     </div>
     
     <table class="table mt-4">
+     
       <thead>
         <tr>
             <th>YEAR</th>
@@ -46,7 +47,8 @@
           <th>Manufacturer</th>
         </tr>
       </thead>
-        <tbody id="carTableBody">
+        <button onclick="CarList();" name="차량조회" value="carinfor_obj">차량조회</button>
+        <tbody id="carlist">
         </tbody>
     </table>
     
@@ -66,5 +68,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
-<script src="../js/list.js"></script>
+<script src="../js/carinforwithfunction.js"></script>
 </html>
